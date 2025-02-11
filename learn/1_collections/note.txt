@@ -1,0 +1,13 @@
+#Equality and the equals methods
+
+# Object class () has a method called equals, but can be overridden
+    => obj1.equals(obj2)
+    => contains method uses equals
+    => default implementation checks memory address
+    ## equals rules
+        => reflexivity obj.equals(obj)
+        => symmetry obj1.equals(obj2)
+        => transitivity
+        => consistency
+        => non-nullity an object should never be considered as null
+    
