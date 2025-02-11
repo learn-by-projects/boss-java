@@ -11,3 +11,8 @@
         => consistency
         => non-nullity an object should never be considered as null
     
+# Hashing
+    => is a way to identify and to lookup
+    => collections use hash to lookup data, to compare
+    => equal objects should have same hash codes
+    => by default hash code generate a hash code based on the memory address

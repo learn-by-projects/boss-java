@@ -3,6 +3,6 @@ public class Person {
   private int age;
   // constructors getters and setters omitted
   public boolean equals(Person p) {
-    return p != null ? p.name.equals(name) && p.age == age : false;
+    return p != null ? name != null && Objects.equals(name, p.name) && p.age == age : false;
   }
 }
